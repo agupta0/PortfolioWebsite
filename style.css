@@ -50,3 +50,31 @@ header img {
 .btn:hover {
     background-color: #0056b3;
 }
+
+/*  CSS for the typing animation */
+#name {
+    display: inline-block;
+    overflow: hidden;
+    border-right: 2px solid #000; /* Cursor effect */
+    white-space: nowrap;
+    animation: typing 3s steps(20, end), blink-caret 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #000;
+    }
+}
+
