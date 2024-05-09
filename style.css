@@ -111,3 +111,29 @@ nav a:hover {
     font-family: Courier, monospace; /* Use Courier font for typed text */
 }
 
+/* Style the container for "About Me" content */
+.about-content {
+    display: flex;
+    justify-content: space-between; /* Align content in a row with space between */
+}
+
+/* Style the text in the "About Me" section */
+.about-text {
+    flex: 1; /* Let the text occupy remaining space */
+    padding: 20px; /* Add padding around the text */
+}
+
+/* Style the image container */
+.about-image {
+    flex: 1; /* Let the image occupy remaining space */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+}
+
+/* Style the profile image */
+.profile-image {
+    width: 200px; /* Adjust image width as needed */
+    border: 5px solid #fff; /* Add a border to the image */
+    border-radius: 50%; /* Apply border radius for a circular frame */
+}
