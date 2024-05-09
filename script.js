@@ -3,5 +3,5 @@ var typed = new Typed('#typed-text', {
     strings: ["Arushi Gupta"],
     typeSpeed: 50, // Typing speed in milliseconds
     backSpeed: 20, // Backspacing speed in milliseconds
-    loop: true // Whether to loop through the strings
+    loop: false // Whether to loop through the strings
 });
