@@ -1,60 +1,94 @@
+/* Reset default browser styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
 }
 
-h1 {
-    color: #333;
+/* Set background color */
+body {
+    background-color: #f0f0f0; /* Light gray background */
 }
 
-p {
-    color: #666;
+/* Apply Arial font family to all text */
+body {
+    font-family: Arial, sans-serif;
 }
 
+/* Style the header */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px; 
-    text-align: center;
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text color */
+    padding: 10px; /* Add padding to header */
+    text-align: center; /* Center-align header text */
 }
 
+/* Style the navigation menu */
 nav {
-    display: flex;
-    justify-content: center;
+    display: flex; /* Use flexbox for navigation menu */
+    justify-content: center; /* Center-align navigation links */
 }
 
+/* Style the navigation links */
 nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 20px; /* Add padding to links */
 }
 
+/* Add hover effect to navigation links */
 nav a:hover {
-    background-color: #555;
+    background-color: #555; /* Dark gray background on hover */
 }
 
+/* Add padding and background color to the skills section */
 #skills {
-    padding: 50px 0;
-    background-color: #151414;
+    padding: 50px 0; /* Add padding to top and bottom */
+    background-color: #151414; /* Dark background color */
+    color: #ddd;
+}
+
+/* Style the heading in the skills section */
+#skills h2 {
+    margin-bottom: 20px; /* Add margin at the bottom of heading */
+}
+
+/* Style the list of skills */
+#skills ul {
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style individual skill items */
+#skills li {
+    display: inline-block; /* Display items in a line */
+    margin: 0 10px; /* Add margin around each item */
+    padding: 10px 20px; /* Add padding to each item */
+    border: 1px solid #ddd; /* Add border to each item */
+    border-radius: 20px; /* Add border radius for rounded corners */
+    background-color: #fff; /* White background color */
+}
+
+#hero {
+    height: 100vh; /* Set the height of the hero section to 100% of the viewport height */
+    background-color: #d3c1c1; /* Example background color */
+    color: #fff; /* Example text color */
+    display: flex; /* Use flexbox to vertically center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.hero-content {
     text-align: center;
 }
 
-#skills h2 {
-    margin-bottom: 20px;
+.hero-content h1 {
+    font-family: Courier, monospace; /* Use Courier font for code-like appearance */
+    font-size: 2.5em; /* Example font size */
+    margin-bottom: 20px; /* Example margin */
 }
 
-#skills ul {
-    list-style-type: none;
-    padding: 0;
+/* Add Courier font to typed text */
+#typed-text {
+    font-family: Courier, monospace; /* Use Courier font for typed text */
 }
 
-#skills li {
-    display: inline-block;
-    margin: 0 10px;
-    padding: 10px 20px;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    background-color: #fff;
-}
